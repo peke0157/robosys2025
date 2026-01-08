@@ -14,7 +14,7 @@ $ git clone https://github.com/peke0157/robosys2025.git
 ```
 $ cd ~/robosys2025
 
-$ chmod +x kadai
+$ chmod +x number_conversion
 ```
 
 ## 使い方
