@@ -1,5 +1,4 @@
-# robosys2025
-ロボットシステム学課題
+# n進数計算プログラム
 
 ![test](https://github.com/peke0157/robosys25/actions/workflows/test.yml/badge.svg)
 
