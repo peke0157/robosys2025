@@ -13,7 +13,7 @@ $ git clone https://github.com/peke0157/robosys2025.git
 ```
 - 下記のディレクトリに移動して、権限を付与する
 ```
-$ cd ~/robosys2025/
+$ cd ~/robosys2025
 
 $ chmod +x kadai
 ```
@@ -21,11 +21,7 @@ $ chmod +x kadai
 ## 使い方
 - 実行方法の例
 ```
-$ seq 3 | ./kadai
-```
-
-- 実行結果の例
-```
+$ seq 5 |./number_conversion
 1 -> 0b1
 1 -> 0o1
 1 -> 0x1
@@ -35,14 +31,16 @@ $ seq 3 | ./kadai
 3 -> 0b11
 3 -> 0o3
 3 -> 0x3
-6
-0b110
-0o6
-0x6
+4 -> 0b100
+4 -> 0o4
+4 -> 0x4
+5 -> 0b101
+5 -> 0o5
+5 -> 0x5
 ```
 - 連続していない複数の数字で実行したい場合
 ```
-$ echo -e "5\n8\n14" | ./kadai
+$echo -e "5\n8\n14" | ./number_conversion
 5 -> 0b101
 5 -> 0o5
 5 -> 0x5
@@ -52,10 +50,6 @@ $ echo -e "5\n8\n14" | ./kadai
 14 -> 0b1110
 14 -> 0o16
 14 -> 0xe
-27
-0b11011
-0o33
-0x1b
 ```
 
 ## 必要なソフトウェア
